@@ -19,7 +19,7 @@ int main()
 	printf("Present working directory is %s\n",pwd);
 	if(filename[0]=='/')
 	{
-		printf("Given path is absolute\n");
+		printf("Given path is absolute\n");             // if the path is absolute keep it as it is
 		strcpy(path,filename);
 
 	}

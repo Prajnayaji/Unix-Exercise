@@ -40,7 +40,7 @@ int main()
 		f = fopen(path,"r");
 		if( f != NULL)
 		{
-			printf("The given path is a file\n");
+			printf("Given path is a file\n");
 			fclose(f);
 			return -1;
 		}

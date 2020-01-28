@@ -6,14 +6,14 @@
 int main()
 {
  
-	char filename[100];
+	char path[100];
 	DIR *directory;
 	struct dirent *d;
 
 	printf("Enter the absolute path of the file\n");
-	scanf("%[^\n]",filename);
-	printf("File path is: %s\n",filename);
-	directory = opendir(filename);
+	scanf("%[^\n]",path);
+	printf("File path is: %s\n",path);
+	directory = opendir(path);
 	if ( directory == NULL)
 	{
 		printf("No such file or directory\n");
